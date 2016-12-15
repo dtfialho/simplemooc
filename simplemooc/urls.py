@@ -10,4 +10,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'simplemooc.core.views.home', name='home'),
+    url(r'^contato/$', 'simplemooc.core.views.contact', name='contact'),
 )
